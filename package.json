@@ -4,6 +4,7 @@
   "description": "jqhtml lets you render express routes using a jquery callback. There's no reason you should want to do that.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "readme": "README.md",
   "scripts": {
     "prebuild": "npm run clean",
     "build": "tsc",
