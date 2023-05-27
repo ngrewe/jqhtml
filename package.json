@@ -21,7 +21,7 @@
   "files": [
     "dist/**/*",
     "example/**/*.jqhtml",
-    "example/**/*.ts",
+    "example/*.ts",
     "README.md"
   ],
   "author": "Niels Grewe <niels.grewe@halbordnung.de>",
