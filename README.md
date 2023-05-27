@@ -1,6 +1,6 @@
 # jQuery ‘Renderer’ for Express
 
-![npm](https://img.shields.io/npm/v/jqhtml)
+[![npm](https://img.shields.io/npm/v/jqhtml)](https://www.npmjs.com/package/jqhtml)
 
 Are you nostalgic for when the web was just three PHP scripts that your cousin
 stapled together in your uncle's basement and glued some snazzy dollar-sign
