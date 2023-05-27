@@ -20,7 +20,8 @@
   "homepage": "https://github.com/ngrewe/jqhtml",
   "files": [
     "dist/**/*",
-    "example/**/*",
+    "example/**/*.jqhtml",
+    "example/**/*.ts",
     "README.md"
   ],
   "author": "Niels Grewe <niels.grewe@halbordnung.de>",
