@@ -4,8 +4,8 @@ import type jQuery from "jquery";
 import { DOMWindow, FileOptions, JSDOM } from "jsdom";
 const jQueryFactory: (window: DOMWindow) => typeof jQuery = require("jquery");
 
-const asyncStorage = new AsyncLocalStorage<FileOptions>();
 
+export type JQuery = typeof jQuery;
 export interface JqHtmlOptionsContainer<T> {
   jqHtmlOptions: T;
 }
@@ -24,6 +24,8 @@ export type JqHtmlRenderOptions<T extends object = any> = T & {
     window: DOMWindow & Omit<JqHtmlOptionsContainer<T>, 'onRender'>
   ): Promise<void>;
 };
+
+const asyncStorage = new AsyncLocalStorage<FileOptions>();
 
 /**
  * This middleware ensures that jqHtml can process your request correctly.

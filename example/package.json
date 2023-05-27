@@ -1,0 +1,32 @@
+{
+  "name": "jqhtml-example",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Example of jqhtml",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node index.ts"
+  },
+  "keywords": [
+    "jqhtml",
+    "jquery",
+    "express",
+    "example"
+  ],
+  "dependencies": {
+    "jqhtml": "~0.1.1",
+    "express": "~4.18.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.4",
+    "ts-node": "^10.9.1"
+  },
+  "author": "Niels Grewe <niels.grewe@halbordnung.de>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "directory": "example/",
+    "url": "https://github.com/ngrewe/jqhtml"
+  }
+}
