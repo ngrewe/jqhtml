@@ -58,7 +58,6 @@ export const __express: <T extends object = any>(
 
 const engine = async <T extends object = any>(path: string, options: JqHtmlRenderOptions<T>) => {
   const domOptions = asyncStorage.getStore();
-  console.log("path", path, domOptions);
   const { window } = await JSDOM.fromFile(path, domOptions);
   if ("onRender" in options && typeof options.onRender === "function") {
     const jquery = jQueryFactory(window);
